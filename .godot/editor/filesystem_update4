@@ -1,3 +1,4 @@
 res://scenes/game/game.tscn
 res://scenes/plane/plane.tscn
 res://scenes/plane/plane.gd
+res://scenes/barrier/barrier.tscn
