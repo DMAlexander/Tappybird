@@ -5,7 +5,7 @@ const PIPES = preload("res://scenes/pipes/pipes.tscn")
 @onready var spawn_u: Marker2D = $SpawnU
 @onready var spawn_l: Marker2D = $SpawnL
 @onready var spawn_timer: Timer = $SpawnTimer
-@onready var pipes_holder: Node = $PipesHolder
+@onready var pipes_holder: Node2D = $PipesHolder
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
