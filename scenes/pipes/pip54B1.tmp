@@ -23,5 +23,3 @@ position = Vector2(23, 0)
 
 [node name="ScoreSound" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("3_eioyc")
-
-[connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_screen_exited"]

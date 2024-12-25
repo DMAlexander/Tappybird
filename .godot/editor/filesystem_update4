@@ -5,3 +5,5 @@ res://scenes/barrier/barrier.tscn
 res://scenes/pipe/pipe.tscn
 res://scenes/laser/laser.tscn
 res://scenes/pipes/pipes.tscn
+res://scenes/pipes/pipes.gd
+res://scenes/game/game.gd
