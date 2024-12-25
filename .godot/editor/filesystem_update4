@@ -8,3 +8,4 @@ res://scenes/pipes/pipes.tscn
 res://scenes/pipes/pipes.gd
 res://scenes/game/game.gd
 res://singletons/game_manager.gd
+res://singletons/signal_manager.gd
