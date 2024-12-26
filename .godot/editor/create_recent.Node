@@ -1,11 +1,12 @@
+CanvasLayer
 AudioStreamPlayer
+Timer
+Label
 AnimationPlayer
 TextureRect
 MarginContainer
-Label
 Node2D
 Node
-Timer
 Marker2D
 AudioStreamPlayer2D
 VisibleOnScreenNotifier2D
