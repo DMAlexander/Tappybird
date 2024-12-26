@@ -15,3 +15,8 @@ res://singletons/score_manager.gd
 res://singletons/signal_manager.gd
 res://scenes/hud/hud.gd
 res://scenes/pipes/pipes.gd
+res://scenes/scrolling_bg/scrolling_bg.tscn
+res://scenes/scrolling_layer/scrolling_layer.tscn
+res://scenes/scrolling_layer/scrolling_layer.gd
+res://scenes/scrolling_bg/scrolling_bg.gd
+res://scenes/plane/plane.gd

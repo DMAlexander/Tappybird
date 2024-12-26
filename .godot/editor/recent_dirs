@@ -1,3 +1,6 @@
+res://scenes/plane
+res://scenes/scrolling_layer
+res://scenes/scrolling_bg
 res://singletons
 res://scenes/hud
 res://scenes/game
@@ -10,4 +13,3 @@ res://scenes/laser
 res://scenes/pipe
 res://scenes/barrier
 res://assets/plane
-res://scenes/plane
