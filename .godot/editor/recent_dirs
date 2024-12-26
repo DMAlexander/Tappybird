@@ -1,9 +1,10 @@
+res://singletons
+res://scenes/hud
 res://scenes/game
 res://assets
 res://scenes/game_over_ui
 res://scenes/main
 res://
-res://singletons
 res://scenes/pipes
 res://scenes/laser
 res://scenes/pipe

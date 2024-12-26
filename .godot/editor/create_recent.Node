@@ -1,7 +1,7 @@
+Label
 CanvasLayer
 AudioStreamPlayer
 Timer
-Label
 AnimationPlayer
 TextureRect
 MarginContainer
@@ -12,4 +12,3 @@ AudioStreamPlayer2D
 VisibleOnScreenNotifier2D
 Area2D
 CollisionShape2D
-Sprite2D
