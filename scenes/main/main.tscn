@@ -1,6 +1,7 @@
-[gd_scene load_steps=9 format=3 uid="uid://bodxevmm4wdci"]
+[gd_scene load_steps=10 format=3 uid="uid://bodxevmm4wdci"]
 
 [ext_resource type="Texture2D" uid="uid://c147lusxrbqdm" path="res://assets/background/sky.png" id="1_mnkbc"]
+[ext_resource type="Script" path="res://scenes/main/main.gd" id="1_seel0"]
 [ext_resource type="LabelSettings" uid="uid://c7hpc544m7ywu" path="res://assets/LG_red_72.tres" id="2_8eq5q"]
 [ext_resource type="LabelSettings" uid="uid://c31f5w0ywctrw" path="res://assets/LG_red_24.tres" id="3_037wi"]
 [ext_resource type="LabelSettings" uid="uid://ch0jg87hllrao" path="res://assets/LG_white_48.tres" id="3_iwg3d"]
@@ -52,6 +53,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_seel0")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 1
@@ -116,6 +118,7 @@ vertical_alignment = 1
 libraries = {
 "": SubResource("AnimationLibrary_1jr0h")
 }
+autoplay = "flash"
 
 [node name="Music" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("5_13j0s")

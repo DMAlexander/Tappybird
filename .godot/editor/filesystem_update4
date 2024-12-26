@@ -5,3 +5,6 @@ res://scenes/laser/laser.tscn
 res://scenes/game/game.tscn
 res://scenes/pipes/pipes.tscn
 res://scenes/main/main.tscn
+res://singletons/game_manager.gd
+res://scenes/game/game.gd
+res://scenes/main/main.gd
