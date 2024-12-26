@@ -5,8 +5,20 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rqts1"]
 size = Vector2(6, 249)
 
-[sub_resource type="Animation" id="Animation_h431c"]
-resource_name = "new_animation"
+[sub_resource type="Animation" id="Animation_thq8r"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
 
 [sub_resource type="Animation" id="Animation_vcr84"]
 resource_name = "flash"
@@ -25,20 +37,8 @@ tracks/0/keys = {
 "values": [Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0.027451), Color(1, 1, 1, 1)]
 }
 
-[sub_resource type="Animation" id="Animation_thq8r"]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Sprite2D:self_modulate")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Color(1, 1, 1, 1)]
-}
+[sub_resource type="Animation" id="Animation_h431c"]
+resource_name = "new_animation"
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_g0xa3"]
 _data = {

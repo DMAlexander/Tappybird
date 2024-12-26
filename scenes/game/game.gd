@@ -30,7 +30,8 @@ func spawn_pipes() -> void:
 #		pipe.set_process(false)
 
 func _on_spawn_timer_timeout() -> void:
-	spawn_timer.stop()
+#	spawn_timer.stop()
+	spawn_pipes()
 
 
 func _on_plane_died() -> void:
