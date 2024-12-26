@@ -22,3 +22,5 @@ res://scenes/scrolling_bg/scrolling_bg.gd
 res://scenes/plane/plane.gd
 res://scenes/parallax_image/parallax_image.tscn
 res://scenes/parallax_image/parallax_image.gd
+res://scenes/simple_transition/simple_transition.tscn
+res://scenes/simple_transition/simple_transition.gd
