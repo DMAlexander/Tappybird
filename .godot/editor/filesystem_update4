@@ -20,3 +20,5 @@ res://scenes/scrolling_layer/scrolling_layer.tscn
 res://scenes/scrolling_layer/scrolling_layer.gd
 res://scenes/scrolling_bg/scrolling_bg.gd
 res://scenes/plane/plane.gd
+res://scenes/parallax_image/parallax_image.tscn
+res://scenes/parallax_image/parallax_image.gd
