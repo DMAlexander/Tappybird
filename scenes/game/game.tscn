@@ -16,6 +16,7 @@
 script = ExtResource("1_5ooip")
 
 [node name="ParallaxBg" type="Node2D" parent="."]
+visible = false
 position = Vector2(0, 427)
 
 [node name="ParallaxImage" parent="ParallaxBg" instance=ExtResource("2_ipta6")]
@@ -42,7 +43,6 @@ scale = Vector2(2, 2)
 transform = Transform2D(2, 0, 0, 2, 0, 0)
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
-visible = false
 
 [node name="GameOverUi" parent="CanvasLayer" instance=ExtResource("5_eay3g")]
 
